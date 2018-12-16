@@ -26,5 +26,9 @@ namespace Cibertec.UI.MVC.Controllers
 
             return View();
         }
+        public ActionResult Productos()
+        {
+            return View();
+        }
     }
 }
