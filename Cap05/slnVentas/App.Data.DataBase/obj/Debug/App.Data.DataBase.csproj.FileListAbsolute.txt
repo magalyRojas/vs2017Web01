@@ -1,0 +1,14 @@
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\bin\Debug\App.Data.DataBase.dll.config
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\bin\Debug\App.Data.DataBase.dll
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\bin\Debug\App.Data.DataBase.pdb
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\bin\Debug\App.Entities.Base.dll
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\bin\Debug\EntityFramework.dll
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\bin\Debug\EntityFramework.SqlServer.dll
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\bin\Debug\App.Entities.Base.pdb
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\bin\Debug\EntityFramework.xml
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.csprojAssemblyReference.cache
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.csproj.CoreCompileInputs.cache
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.csproj.CopyComplete
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.dll
+E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.pdb

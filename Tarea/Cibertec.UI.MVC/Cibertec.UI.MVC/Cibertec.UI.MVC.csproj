@@ -171,24 +171,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\Site.css" />
-    <Content Include="Content\Html\Elementos.html" />
     <Content Include="Content\Html\tarea.html" />
-    <Content Include="Content\Html\localStorageGet.html" />
-    <Content Include="Content\Html\RegistroAJAX.html" />
-    <Content Include="Content\Html\localStorageSet.html" />
-    <Content Include="Content\Html\UsoHelpers.html" />
-    <Content Include="Content\Html\EventosJQuery.html" />
-    <Content Include="Content\Html\Eventos.html" />
-    <Content Include="Content\Html\Imagenes.html" />
-    <Content Include="Content\Html\Listas.html" />
-    <Content Include="Content\Html\Tablas.html" />
-    <Content Include="Content\Images\logo.jpg" />
-    <Content Include="Content\Images\navidad.jpg" />
     <Content Include="Content\js\helpers.js" />
     <Content Include="Content\js\video.js" />
     <Content Include="Content\js\index.js" />
-    <Content Include="Content\media\html5.mp4" />
-    <Content Include="Content\media\musica.mp3" />
     <Content Include="Content\styles.css" />
     <Content Include="Content\styles.min.css">
       <DependentUpon>styles.css</DependentUpon>
@@ -197,12 +183,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="productos.html" />
     <Content Include="index.html" />
-    <Content Include="Registros04.html" />
-    <Content Include="Registros03.html" />
-    <Content Include="Registros02.html" />
-    <Content Include="Registros.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
