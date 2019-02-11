@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C98E813-723B-408C-891D-6990A1D1C58B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>App.Domain.Services</RootNamespace>
+    <AssemblyName>App.Domain.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProductoService.cs" />
+    <Compile Include="CategoriaService.cs" />
+    <Compile Include="MarcaService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnidadMedidaService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\App.Data.DataBase\App.Data.DataBase.csproj">
+      <Project>{00998737-DFE8-49DC-9FBB-C172F3C5C346}</Project>
+      <Name>App.Data.DataBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Data.Repository.Interfaces\App.Data.Repository.Interfaces.csproj">
+      <Project>{8cbc299a-d41f-4c1f-bb11-20db518af1fc}</Project>
+      <Name>App.Data.Repository.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Data.Repository\App.Data.Repository.csproj">
+      <Project>{7C7FB51A-C5E2-49EC-B943-96ABAE9A5EFB}</Project>
+      <Name>App.Data.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Domain.Services.Interfaces\App.Domain.Services.Interfaces.csproj">
+      <Project>{3352497E-15DC-446D-8862-398EB218F39E}</Project>
+      <Name>App.Domain.Services.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Entities.Base\App.Entities.Base.csproj">
+      <Project>{2FFB037C-539E-4032-9BD2-02EA3087FD75}</Project>
+      <Name>App.Entities.Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

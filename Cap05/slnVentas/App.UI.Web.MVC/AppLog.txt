@@ -1,0 +1,269 @@
+2019-02-10 11:33:37,113 [11] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2, Hora de inicio: 10/02/2019 11:33:37
+2019-02-10 11:33:37,495 [11] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2, Hora de fin: 10/02/2019 11:33:37
+2019-02-10 11:33:42,124 [11] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de inicio: 10/02/2019 11:33:42
+2019-02-10 11:33:42,166 [11] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de fin: 10/02/2019 11:33:42
+2019-02-10 11:48:31,548 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2, Hora de inicio: 10/02/2019 11:48:31
+2019-02-10 11:48:41,831 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2, Hora de fin: 10/02/2019 11:48:41
+2019-02-10 11:48:41,831 [13] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2, Hora de inicio: 10/02/2019 11:48:41
+2019-02-10 11:48:41,832 [12] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Exception: Lanzando un error simulado
+   en App.UI.Web.MVC.Controllers.Mantenimientos.ProductoController.Index2(String filterByName, Nullable`1 filterByCategoria, Nullable`1 filterByMarca) en E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\Controllers\Mantenimientos\ProductoController.cs:línea 49
+   en lambda_method(Closure , ControllerBase , Object[] )
+   en System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-02-10 11:48:44,576 [13] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2, Hora de fin: 10/02/2019 11:48:44
+2019-02-10 11:48:44,579 [13] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Exception: Lanzando un error simulado
+   en App.UI.Web.MVC.Controllers.Mantenimientos.ProductoController.Index2(String filterByName, Nullable`1 filterByCategoria, Nullable`1 filterByMarca) en E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\Controllers\Mantenimientos\ProductoController.cs:línea 49
+   en lambda_method(Closure , ControllerBase , Object[] )
+   en System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-02-10 11:51:48,742 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2, Hora de inicio: 10/02/2019 11:51:48
+2019-02-10 11:51:59,882 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2, Hora de fin: 10/02/2019 11:51:58
+2019-02-10 11:52:09,752 [12] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Exception: Lanzando un error simulado
+   en App.UI.Web.MVC.Controllers.Mantenimientos.ProductoController.Index2(String filterByName, Nullable`1 filterByCategoria, Nullable`1 filterByMarca) en E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\Controllers\Mantenimientos\ProductoController.cs:línea 49
+   en lambda_method(Closure , ControllerBase , Object[] )
+   en System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-02-10 12:00:01,821 [8] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2, Hora de inicio: 10/02/2019 12:00:01
+2019-02-10 12:00:02,211 [8] ERROR App.UI.Web.MVC.Controllers.Mantenimientos.ProductoController System.Exception: Lanzando un error simulado
+   en App.UI.Web.MVC.Controllers.Mantenimientos.ProductoController.Index2(String filterByName, Nullable`1 filterByCategoria, Nullable`1 filterByMarca) en E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\Controllers\Mantenimientos\ProductoController.cs:línea 57
+2019-02-10 12:00:02,215 [8] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2, Hora de fin: 10/02/2019 12:00:02
+2019-02-10 12:00:05,092 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de inicio: 10/02/2019 12:00:05
+2019-02-10 12:00:05,139 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de fin: 10/02/2019 12:00:05
+2019-02-10 12:00:40,486 [15] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de inicio: 10/02/2019 12:00:40
+2019-02-10 12:00:40,492 [15] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de fin: 10/02/2019 12:00:40
+2019-02-10 12:01:16,261 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de inicio: 10/02/2019 12:01:16
+2019-02-10 12:01:16,265 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de fin: 10/02/2019 12:01:16
+2019-02-10 12:01:19,082 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Edit, Hora de inicio: 10/02/2019 12:01:19
+2019-02-10 12:01:19,124 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Edit, Hora de fin: 10/02/2019 12:01:19
+2019-02-10 12:04:20,917 [11] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2, Hora de inicio: 10/02/2019 12:04:20
+2019-02-10 12:04:21,336 [11] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2, Hora de fin: 10/02/2019 12:04:21
+2019-02-10 12:05:47,149 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de inicio: 10/02/2019 12:05:47
+2019-02-10 12:05:47,193 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de fin: 10/02/2019 12:05:47
+2019-02-10 12:06:13,471 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2, Hora de inicio: 10/02/2019 12:06:13
+2019-02-10 12:06:13,484 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2, Hora de fin: 10/02/2019 12:06:13
+2019-02-10 12:06:25,430 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de inicio: 10/02/2019 12:06:25
+2019-02-10 12:06:32,750 [11] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de inicio: 10/02/2019 12:06:32
+2019-02-10 12:06:36,942 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de inicio: 10/02/2019 12:06:36
+2019-02-10 12:06:48,914 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de fin: 10/02/2019 12:06:48
+2019-02-10 12:06:48,914 [11] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de fin: 10/02/2019 12:06:48
+2019-02-10 12:06:48,914 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de fin: 10/02/2019 12:06:48
+2019-02-10 12:06:48,914 [11] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server) ---> System.ComponentModel.Win32Exception: El sistema no puede encontrar el archivo especificado
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   en System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   en System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   en System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   en System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   en System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   en System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   en System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   en System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   en System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   en System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   en System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   en App.Data.Repository.GenericRepository`1.GetAll(Expression`1 predicate, String includes) en D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.Repository\GenericRepository.cs:línea 81
+   en App.Domain.Services.ProductoService.GetAll(String nombre, Nullable`1 categoriaID, Nullable`1 marcaID) en D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Domain.Services\ProductoService.cs:línea 24
+   en App.UI.Web.MVC.Controllers.Mantenimientos.ProductoController.Index2Buscar(String filterByName, Nullable`1 filterByCategoria, Nullable`1 filterByMarca) en E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\Controllers\Mantenimientos\ProductoController.cs:línea 75
+   en lambda_method(Closure , ControllerBase , Object[] )
+   en System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-02-10 12:06:48,914 [10] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server) ---> System.ComponentModel.Win32Exception: El sistema no puede encontrar el archivo especificado
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   en System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   en System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   en System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   en System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   en System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   en System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   en System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   en System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   en System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   en System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   en System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   en App.Data.Repository.GenericRepository`1.GetAll(Expression`1 predicate, String includes) en D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.Repository\GenericRepository.cs:línea 81
+   en App.Domain.Services.ProductoService.GetAll(String nombre, Nullable`1 categoriaID, Nullable`1 marcaID) en D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Domain.Services\ProductoService.cs:línea 24
+   en App.UI.Web.MVC.Controllers.Mantenimientos.ProductoController.Index2Buscar(String filterByName, Nullable`1 filterByCategoria, Nullable`1 filterByMarca) en E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\Controllers\Mantenimientos\ProductoController.cs:línea 75
+   en lambda_method(Closure , ControllerBase , Object[] )
+   en System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-02-10 12:06:48,914 [12] ERROR App.UI.Web.MVC.Filters.HandleCustomError System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server) ---> System.ComponentModel.Win32Exception: El sistema no puede encontrar el archivo especificado
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   en System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   en System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   en System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   en System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   en System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   en System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   en System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   en System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   en System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   en System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   en System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   en App.Data.Repository.GenericRepository`1.GetAll(Expression`1 predicate, String includes) en D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Data.Repository\GenericRepository.cs:línea 81
+   en App.Domain.Services.ProductoService.GetAll(String nombre, Nullable`1 categoriaID, Nullable`1 marcaID) en D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Domain.Services\ProductoService.cs:línea 24
+   en App.UI.Web.MVC.Controllers.Mantenimientos.ProductoController.Index2Buscar(String filterByName, Nullable`1 filterByCategoria, Nullable`1 filterByMarca) en E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\Controllers\Mantenimientos\ProductoController.cs:línea 75
+   en lambda_method(Closure , ControllerBase , Object[] )
+   en System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   en System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2019-02-10 12:10:44,044 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2, Hora de inicio: 10/02/2019 12:10:44
+2019-02-10 12:10:44,074 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2, Hora de fin: 10/02/2019 12:10:44
+2019-02-10 12:10:46,768 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de inicio: 10/02/2019 12:10:46
+2019-02-10 12:10:46,805 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2Buscar, Hora de fin: 10/02/2019 12:10:46
+2019-02-10 13:03:27,128 [15] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2, Hora de inicio: 10/02/2019 13:03:27
+2019-02-10 13:03:27,491 [15] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2, Hora de fin: 10/02/2019 13:03:27
+2019-02-10 13:45:39,645 [11] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:IndexVM, Hora de inicio: 10/02/2019 13:45:39
+2019-02-10 13:45:40,245 [11] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:45:40
+2019-02-10 13:45:44,056 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:IndexVM, Hora de inicio: 10/02/2019 13:45:44
+2019-02-10 13:45:44,060 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:45:44
+2019-02-10 13:45:52,211 [18] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:IndexVM, Hora de inicio: 10/02/2019 13:45:52
+2019-02-10 13:45:52,216 [18] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:45:52
+2019-02-10 13:51:35,771 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:IndexVM, Hora de inicio: 10/02/2019 13:51:35
+2019-02-10 13:51:36,159 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:51:36
+2019-02-10 13:51:39,529 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:IndexVM, Hora de inicio: 10/02/2019 13:51:39
+2019-02-10 13:51:39,536 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:51:39
+2019-02-10 13:51:42,164 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:IndexVM, Hora de inicio: 10/02/2019 13:51:42
+2019-02-10 13:51:42,172 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:51:42
+2019-02-10 13:51:50,050 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:IndexVM, Hora de inicio: 10/02/2019 13:51:50
+2019-02-10 13:51:50,059 [10] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:51:50
+2019-02-10 13:51:50,932 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:IndexVM, Hora de inicio: 10/02/2019 13:51:50
+2019-02-10 13:51:50,938 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:51:50
+2019-02-10 13:53:35,262 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:IndexVM, Hora de inicio: 10/02/2019 13:53:35
+2019-02-10 13:53:35,644 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:53:35
+2019-02-10 13:53:40,055 [13] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:IndexVM, Hora de inicio: 10/02/2019 13:53:40
+2019-02-10 13:53:40,071 [13] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:53:40

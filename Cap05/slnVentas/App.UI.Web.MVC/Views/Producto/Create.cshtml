@@ -1,0 +1,87 @@
+﻿@model App.Entities.Base.Producto
+
+@{
+    /**/
+
+    ViewBag.Title = "Create";
+}
+ debugger;
+<h2>Crear Producto</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+        @Html.HiddenFor(item => item.ProductoID)
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Código</label>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.ProductoCode, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ProductoCode, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Nombre</label>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Unidad de medida</label>
+            <div class="col-sm-10">
+                @Html.DropDownList("filterByUnidadMedida", new SelectList(ViewBag.UnidadMedidas, "UnidadMedidaID", "Nombre"), "", new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Categoría</label>
+            <div class="col-sm-10">
+                @Html.DropDownList("filterByCategoria", new SelectList(ViewBag.Categorias, "CategoriaID", "Nombre"), "", new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Marca</label>
+            <div class="col-sm-10">
+                @Html.DropDownList("filterByMarca", new SelectList(ViewBag.Marcas, "MarcaID", "Nombre"), "", new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Precio Máximo</label>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.PrecioMayor, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Precio Mínimo</label>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.PrecioMenor, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Stock actual</label>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.StockActual, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Stock mínimo</label>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.StockMinimo, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button class="btn btn-success">Guardar</button>
+            </div>
+        </div>
+
+    </div>
+}
+
