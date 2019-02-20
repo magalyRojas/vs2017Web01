@@ -236,3 +236,11 @@ E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\obj\Debug
 E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\obj\Debug\App.UI.Web.MVC.csproj.CopyComplete
 E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\obj\Debug\App.UI.Web.MVC.dll
 E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\obj\Debug\App.UI.Web.MVC.pdb
+D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\bin\log4net.dll
+D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\bin\SimpleInjector.dll
+D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\bin\SimpleInjector.Integration.Web.dll
+D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\bin\SimpleInjector.Integration.Web.Mvc.dll
+D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\bin\log4net.xml
+D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\bin\SimpleInjector.xml
+D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\bin\SimpleInjector.Integration.Web.xml
+D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.UI.Web.MVC\bin\SimpleInjector.Integration.Web.Mvc.xml

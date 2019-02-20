@@ -14,19 +14,19 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
     {
         private readonly ICategoriaService categoriaService;
         // GET: Categoria
-        public CategoriaController()
+        public CategoriaController(ICategoriaService pCategoriaServices)
         {
-            categoriaService = new CategoriaService();
+            categoriaService = pCategoriaServices;
         }
         public ActionResult Index()
         {
-            var model = categoriaService.GetAll("");
-            return View(model);
+            //var model = categoriaService.GetAll("");
+            return View();
         }
 
         public ActionResult Create()
         {
-            return View();
+            return PartialView();
         }
 
         //[HttpPost]
@@ -41,21 +41,29 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
         //public ActionResult Create(string nombre, string descripcion)
         public ActionResult Create([ModelBinder(binderType:typeof(CategoriaBinder))] Categoria model)
         {
-            var result = categoriaService.Save(model);
+            bool result = categoriaService.Save(model);
             return RedirectToAction("Index");
         }
 
         public ActionResult Edit(int id)
         {
-            var model = categoriaService.GetById(id);
+            Categoria model = categoriaService.GetById(id);
             return View("Create", model);
         }
 
         [HttpPost]
         public ActionResult Edit(Categoria model)
         {
-            var result = categoriaService.Save(model);
+            bool result = categoriaService.Save(model);
+            //var result = categoriaService.Save(model);
             return RedirectToAction("Index");
+        }
+
+        public ActionResult Buscar(string filtroPorNombre)
+        {
+            filtroPorNombre = filtroPorNombre != null ? filtroPorNombre : "";
+            var model = categoriaService.GetAll(filtroPorNombre);
+            return PartialView("IndexListado", model);
         }
     }
 }

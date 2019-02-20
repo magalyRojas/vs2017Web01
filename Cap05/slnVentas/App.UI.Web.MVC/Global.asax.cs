@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using App.UI.Web.MVC.App_Start;
 
 namespace App.UI.Web.MVC
 {
@@ -20,6 +21,9 @@ namespace App.UI.Web.MVC
 
             //configurando un componente de Log4Net
             log4net.Config.XmlConfigurator.Configure();
+
+            //aplicando inyeccion por dependencia
+            DIConfig.ConfigureInjector();
 
             JsonConvert.DefaultSettings = () => new JsonSerializerSettings
             {

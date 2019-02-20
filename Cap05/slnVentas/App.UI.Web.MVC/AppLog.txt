@@ -267,3 +267,5 @@
 2019-02-10 13:53:35,644 [12] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:53:35
 2019-02-10 13:53:40,055 [13] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:IndexVM, Hora de inicio: 10/02/2019 13:53:40
 2019-02-10 13:53:40,071 [13] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:IndexVM, Hora de fin: 10/02/2019 13:53:40
+2019-02-20 15:43:28,301 [59] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Iniciando la ejecución del controlador:Producto, Action:Index2, Hora de inicio: 20/02/2019 15:43:28
+2019-02-20 15:43:28,353 [59] INFO  App.UI.Web.MVC.Filters.LoggingFilterAttribute Finalizando la ejecución del controlador:Producto, Action:Index2, Hora de fin: 20/02/2019 15:43:28
