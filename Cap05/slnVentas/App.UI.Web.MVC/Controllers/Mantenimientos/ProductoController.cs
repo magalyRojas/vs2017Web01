@@ -14,6 +14,7 @@ using System.Web.Mvc;
 
 namespace App.UI.Web.MVC.Controllers.Mantenimientos
 {
+    [Authorize(Roles ="Admin")]
     [LoggingFilter]
     [HandleCustomError]
     public class ProductoController : BaseController

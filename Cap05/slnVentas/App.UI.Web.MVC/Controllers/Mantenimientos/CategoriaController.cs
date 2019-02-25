@@ -10,7 +10,8 @@ using System.Web.Mvc;
 
 namespace App.UI.Web.MVC.Controllers.Mantenimientos
 {
-    public class CategoriaController : Controller
+    [Authorize(Roles = "Admin")]
+    public class CategoriaController : BaseController
     {
         private readonly ICategoriaService categoriaService;
         // GET: Categoria

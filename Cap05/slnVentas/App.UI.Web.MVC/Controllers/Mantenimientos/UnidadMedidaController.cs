@@ -9,7 +9,8 @@ using App.Entities.Base;
 
 namespace App.UI.Web.MVC.Controllers.Mantenimientos
 {
-    public class UnidadMedidaController : Controller
+    [Authorize(Roles = "Admin")]
+    public class UnidadMedidaController : BaseController
     {
         private readonly IUnidadMedidaService unidadMedidaService;
         // GET: UnidadMedida

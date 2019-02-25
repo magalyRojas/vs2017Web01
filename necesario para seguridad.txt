@@ -1,0 +1,19 @@
+en el proyecto web
+Paso N°1
+Install.Package Owin
+Install.Package Microsoft.Owin
+Install.Package Microsoft.Owin.Host.SystemWeb (instalar)
+Install.Package Microsoft.Owin.Security
+Install.Package Microsoft.Owin.Security.Cookies (instalar)
+Install.Package Microsoft.Web.Infraestruture
+
+Paso N°2
+Crear archivo Startup (owin Startup class) a nivel de web para configurar el tipod e autentificacion 
+y asignar la pag. de login
+
+Paso N°3
+Estableces la seguridad en los contoladores e implementar la
+pagina de login
+
+SecurityFilter Mvc
+customAutorize

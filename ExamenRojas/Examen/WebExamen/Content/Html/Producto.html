@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../css/Site.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../js/Helpers.js"></script>
+    <script type="text/javascript">
+        $(document).ready(config);
+
+        function config() {
+            $(".Guardar").on("click", Guardar);
+        }
+
+        function Guardar() {
+            debugger;
+            var equipo = {};
+            equipo.nombre = $("#txtNombre").val();
+            equipo.categoria = $("#categoria").text();
+            equipo.marca = $("#dlMarca").text();
+            equipo.precio = $("#txtPrecio").val();
+            equipo.stock = $("#txtStock").val();
+
+            cibertec.helpers.SetObjectLocalStorage(equipo, "registroEquipo");
+            document.location.href = "localStorageGet.html";
+        }
+    </script>
+</head>
+<body>
+    <form id="RegistroProducto">
+        <fieldset>
+            
+            <p>
+                <label for="txtNombre">Nombre</label>
+                <input type="text" id="txtNombre" />
+            </p>
+            <p>
+                <datalist id="dlCategoria">
+                    <option value="Impresoras"></option>
+                    <option value="Monitores"></option>
+                    <option value="Mouse"></option>
+                </datalist>
+                Browser Preferido: <input list="dlCategoria" name="categoria"/>
+            </p>
+            <p>
+                <datalist id="dlMarca">
+                    <option value="Dell"></option>
+                    <option value="HP"></option>
+                    <option value="Sony"></option>
+                    <option value="AOC"></option>
+                </datalist>
+                Browser Preferido: <input list="dlMarca" />
+            </p>
+            <p>
+                <label for="txtPrecio">Precio</label>
+                <input type="text" id="txtPrecio" />
+            </p>
+            <p>
+                <label for="txtStock">Stock</label>
+                <input type="text" id="txtStock" />
+            </p>
+
+        </fieldset>
+
+        <p>
+            <button id="btnGrabar" class="Guardar" type="button"> Registrar   </button>
+        </p>
+    </form>
+</body>
+</html>

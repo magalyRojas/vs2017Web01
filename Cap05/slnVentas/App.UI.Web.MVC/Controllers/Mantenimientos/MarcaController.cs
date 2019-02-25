@@ -9,7 +9,8 @@ using App.Entities.Base;
 
 namespace App.UI.Web.MVC.Controllers.Mantenimientos
 {
-    public class MarcaController : Controller
+    [Authorize(Roles = "Admin")]
+    public class MarcaController : BaseController
     {
         private readonly IMarcaService marcaService;
 
