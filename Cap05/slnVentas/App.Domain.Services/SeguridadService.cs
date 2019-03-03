@@ -28,7 +28,8 @@ namespace App.Domain.Services
             IEnumerable<Usuario> result;
             using (var unitOfWork = new AppUnitOfWork())
             {
-                result = unitOfWork.UsuarioRepository.GetAll(item => item.Nombres.Contains(nombre)|| item.Apellidos.Contains(nombre)).ToList();
+                result = unitOfWork.UsuarioRepository.GetAll(item => String.Concat(item.Nombres, " ", item.Apellidos).Contains(nombre)).ToList();
+                
             }
             return result;
         }

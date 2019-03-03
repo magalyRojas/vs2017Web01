@@ -36,8 +36,8 @@
                             <i class="fa fa-dashboard"></i> <span>Mantenimientos</span> <i class="fa fa-angle-left pull-right"></i>
                         </a>
                         <ul class="treeview-menu">
-                            <li class="active"><a href="@Url.Action("Index", "Categoria")"><i class="fa fa-circle-o"></i> Categorias</a></li>
-                            <li><a href="@Url.Action("Index2", "Producto")"><i class="fa fa-circle-o"></i> Productos</a></li>
+                            <li class="active"><a href="@Url.Action("Index", "Categoria",new {Area="" })"><i class="fa fa-circle-o"></i> Categorias</a></li>
+                            <li><a href="@Url.Action("Index2", "Producto", new {Area="" })"><i class="fa fa-circle-o"></i> Productos</a></li>
                         </ul>
                     </li>
                     <li class="active treeview">
@@ -54,8 +54,21 @@
 
 
 
+
             </ul>
         </section>
         <!-- /.sidebar -->
     </aside>
+}
+else
+{
+    <li class="active treeview">
+        <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Otras opciones</span> <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+            <li class="active"><a href="@Url.Action("Index", "Comentario",new {Area=""})"><i class="fa fa-circle-o"></i> Comentario</a></li>
+
+        </ul>
+    </li>
 }

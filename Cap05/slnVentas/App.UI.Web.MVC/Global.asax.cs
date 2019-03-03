@@ -22,12 +22,15 @@ namespace App.UI.Web.MVC
             //configurando un componente de Log4Net
             log4net.Config.XmlConfigurator.Configure();
 
+            //Configurando el auto mapper
+            Mappers.MappingDTO();
+
             //aplicando inyeccion por dependencia
             DIConfig.ConfigureInjector();
 
             JsonConvert.DefaultSettings = () => new JsonSerializerSettings
             {
-                
+
                 ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
             };
         }
