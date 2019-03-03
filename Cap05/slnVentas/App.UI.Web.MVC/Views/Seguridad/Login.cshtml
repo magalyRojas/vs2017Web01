@@ -15,7 +15,8 @@
             <label for="inputEmail3" class="col-sm-2 control-label">Usuario</label>
             <div class="col-sm-10">
 
-                @Html.EditorFor(item => item.Login, new { htmlAttributes = new { @class = "form-control" } })
+                @*@Html.EditorFor(item => item.Login, new { htmlAttributes = new { @class = "form-control" } })*@
+                @Html.EditorFor(item => item.Login, new {  @class = "form-control", @autocomplete="off"  })
                 @Html.ValidationMessageFor(item => item.Login, "", new { htmlAttributes = new { @class = "text-danger" } })
 
             </div>
