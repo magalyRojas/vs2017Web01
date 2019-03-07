@@ -10,3 +10,8 @@ E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Entities.Base\obj\De
 E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.dll
 E:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.pdb
 D:\webDeveloper\Repositorio\vs2017Web01\Cap05\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.csprojAssemblyReference.cache
+E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Base\bin\Debug\App.Entities.Base.dll
+E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Base\bin\Debug\App.Entities.Base.pdb
+E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CoreCompileInputs.cache
+E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.dll
+E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.pdb
