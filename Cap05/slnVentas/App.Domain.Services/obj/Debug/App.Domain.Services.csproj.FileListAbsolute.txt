@@ -47,6 +47,7 @@ E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.S
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\App.Data.Repository.Interfaces.dll
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\App.Domain.Services.Interfaces.dll
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\App.Entities.Base.dll
+E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\App.Entities.Queries.dll
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\EntityFramework.dll
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\App.Data.DataBase.pdb
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\App.Data.DataBase.dll.config
@@ -55,6 +56,7 @@ E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.S
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\App.Data.Repository.dll.config
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\App.Domain.Services.Interfaces.pdb
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\App.Entities.Base.pdb
+E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\App.Entities.Queries.pdb
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\bin\Debug\EntityFramework.xml
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\obj\Debug\App.Domain.Services.csprojAssemblyReference.cache
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Domain.Services\obj\Debug\App.Domain.Services.csproj.CoreCompileInputs.cache

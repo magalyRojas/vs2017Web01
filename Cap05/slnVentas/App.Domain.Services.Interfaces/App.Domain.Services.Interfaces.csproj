@@ -53,6 +53,10 @@
       <Project>{2FFB037C-539E-4032-9BD2-02EA3087FD75}</Project>
       <Name>App.Entities.Base</Name>
     </ProjectReference>
+    <ProjectReference Include="..\App.Entities.Queries\App.Entities.Queries.csproj">
+      <Project>{C04E86B0-DF88-4274-B2F0-9079BB6EF56E}</Project>
+      <Name>App.Entities.Queries</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

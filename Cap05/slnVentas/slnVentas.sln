@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain.Services", "App.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain.Services.Interfaces", "App.Domain.Services.Interfaces\App.Domain.Services.Interfaces.csproj", "{3352497E-15DC-446D-8862-398EB218F39E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Entities.Queries", "App.Entities.Queries\App.Entities.Queries.csproj", "{C04E86B0-DF88-4274-B2F0-9079BB6EF56E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{3352497E-15DC-446D-8862-398EB218F39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3352497E-15DC-446D-8862-398EB218F39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3352497E-15DC-446D-8862-398EB218F39E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04E86B0-DF88-4274-B2F0-9079BB6EF56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04E86B0-DF88-4274-B2F0-9079BB6EF56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04E86B0-DF88-4274-B2F0-9079BB6EF56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04E86B0-DF88-4274-B2F0-9079BB6EF56E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{ED1AB726-D157-4F66-9ADA-5E0C3C032170} = {579A6A93-F291-4C99-A129-6165770E1747}
 		{2C98E813-723B-408C-891D-6990A1D1C58B} = {697A67E6-6D4A-44D3-96E8-64B9A0133B2B}
 		{3352497E-15DC-446D-8862-398EB218F39E} = {697A67E6-6D4A-44D3-96E8-64B9A0133B2B}
+		{C04E86B0-DF88-4274-B2F0-9079BB6EF56E} = {5E2A1BBE-C2FF-49D6-938E-62513339D84E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8D72973-0AEF-489E-8749-6BC9867AA949}

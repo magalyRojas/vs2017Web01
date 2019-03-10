@@ -70,6 +70,10 @@
       <Project>{2ffb037c-539e-4032-9bd2-02ea3087fd75}</Project>
       <Name>App.Entities.Base</Name>
     </ProjectReference>
+    <ProjectReference Include="..\App.Entities.Queries\App.Entities.Queries.csproj">
+      <Project>{C04E86B0-DF88-4274-B2F0-9079BB6EF56E}</Project>
+      <Name>App.Entities.Queries</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

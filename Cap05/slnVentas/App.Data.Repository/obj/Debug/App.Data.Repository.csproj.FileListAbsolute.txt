@@ -42,12 +42,14 @@ E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Rep
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\App.Data.DataBase.dll
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\App.Data.Repository.Interfaces.dll
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\App.Entities.Base.dll
+E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\App.Entities.Queries.dll
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\EntityFramework.dll
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\App.Data.DataBase.pdb
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\App.Data.DataBase.dll.config
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\App.Data.Repository.Interfaces.pdb
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\App.Entities.Base.pdb
+E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\App.Entities.Queries.pdb
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\EntityFramework.xml
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Data.Repository\obj\Debug\App.Data.Repository.csprojAssemblyReference.cache
