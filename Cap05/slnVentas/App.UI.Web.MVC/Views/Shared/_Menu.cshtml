@@ -29,27 +29,38 @@
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu">
                 <li class="header">MAIN NAVIGATION</li>
-                @if (SecurityHelpers.IsAdmin())
-                {
-                    <li class="active treeview">
-                        <a href="#">
-                            <i class="fa fa-dashboard"></i> <span>Mantenimientos</span> <i class="fa fa-angle-left pull-right"></i>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li class="active"><a href="@Url.Action("Index", "Categoria",new {Area="" })"><i class="fa fa-circle-o"></i> Categorias</a></li>
-                            <li><a href="@Url.Action("Index2", "Producto", new {Area="" })"><i class="fa fa-circle-o"></i> Productos</a></li>
-                        </ul>
-                    </li>
-                    <li class="active treeview">
-                        <a href="#">
-                            <i class="fa fa-dashboard"></i> <span>Seguridad</span> <i class="fa fa-angle-left pull-right"></i>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li class="active"><a href="@Url.Action("Index", "Home",new {Area="AdminSeguridad"})"><i class="fa fa-circle-o"></i> Usuarios</a></li>
+              
 
-                        </ul>
-                    </li>
-                }
+                <li class="active treeview">
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i> <span>Mantenimientos</span> <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="active"><a href="@Url.Action("Index", "Cliente",new {Area="" })"><i class="fa fa-circle-o"></i> Clientes</a></li>
+                        <li class="active"><a href="@Url.Action("Index", "Categoria",new {Area="" })"><i class="fa fa-circle-o"></i> Categorias</a></li>
+                        <li><a href="@Url.Action("Index2", "Producto", new {Area="" })"><i class="fa fa-circle-o"></i> Productos</a></li>
+                    </ul>
+                </li>
+                
+                <li class="active treeview">
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i> <span>Seguridad</span> <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="active"><a href="@Url.Action("Index", "Home",new {Area="AdminSeguridad"})"><i class="fa fa-circle-o"></i> Usuarios</a></li>
+                    </ul>
+                </li>
+
+                <li class="active treeview">
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i> <span>Ventas</span> <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="active"><a href="@Url.Action("Index", "Venta",new {Area=""})"><i class="fa fa-circle-o"></i> Registrar Venta</a></li>
+
+                    </ul>
+                </li>
+                #line hidden
 
 
 

@@ -25,6 +25,7 @@ namespace App.UI.Web.MVC.App_Start
             container.Register<IUnidadMedidaService, UnidadMedidaService>();
             container.Register<ISeguridadService, SeguridadService>();
             container.Register<IComentarioService, ComentarioService>();
+            container.Register<IClienteService, ClienteService>();
             container.RegisterMvcControllers(Assembly.GetExecutingAssembly());
             container.Verify();
             DependencyResolver.SetResolver(new SimpleInjectorDependencyResolver(container));

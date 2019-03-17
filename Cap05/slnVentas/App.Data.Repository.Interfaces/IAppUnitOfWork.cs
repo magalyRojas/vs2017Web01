@@ -14,6 +14,7 @@ namespace App.Data.Repository.Interfaces
         IProductoRepository ProductoRepository { get; set; }
         IUsuarioRepository UsuarioRepository { get; set; }
         IComentarioRepository ComentarioRepository { get; set; }
+        IClienteRepository ClienteRepository { get; set; }
         int Complete();
 
     }

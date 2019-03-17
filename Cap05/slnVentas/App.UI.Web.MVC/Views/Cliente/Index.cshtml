@@ -1,0 +1,17 @@
+﻿@model IEnumerable<App.Entities.Base.Cliente>
+@{
+    ViewBag.Title = "Lista de Clientes";
+}
+<h2>Lista de Clientes</h2>
+<a href="#" onclick="app.helpers.showModal('ClienteCreatePopup', '@Url.Action("Create")')" class="btn btn-success">Nuevo</a>
+@using (Ajax.BeginForm("Buscar", "Cliente", new AjaxOptions { HttpMethod = "POST", InsertionMode = InsertionMode.Replace, UpdateTargetId = "listado" }))
+{
+    <p>
+        <input name="filtroPorNombre" />
+        <button type="submit" class="buscar">Buscar</button>
+    </p>
+}
+<div id="listado">
+    @Html.Action("Buscar")
+</div>
+@Modal.CreateModal("Crear Cliente", "ClienteCreatePopup")

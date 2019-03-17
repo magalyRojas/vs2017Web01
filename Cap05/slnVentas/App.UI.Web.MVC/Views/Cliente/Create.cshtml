@@ -1,0 +1,61 @@
+﻿@model App.Entities.Base.Cliente
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Crear Cliente</h2>
+@using (Ajax.BeginForm("Create", "Cliente", new AjaxOptions() { OnSuccess = "app.ClienteView.RefreshLista()" }))
+{
+    <div class="form-horizontal">
+        @Html.HiddenFor(item => item.ClienteID)
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Apellido Paterno</label>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.ApellidoPaterno, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ApellidoPaterno, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Apellido Materno</label>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.ApellidoMaterno, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ApellidoMaterno, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Nombre</label>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Documento N°</label>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.DocumentoIdentidad, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DocumentoIdentidad, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Direccion</label>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Direccion, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Direccion, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button class="btn btn-success">Guardar</button>
+            </div>
+        </div>
+    </div>
+}
+
+@section scriptsAdicionales
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}

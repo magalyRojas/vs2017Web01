@@ -168,7 +168,7 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
 
         public ActionResult ConsultaProductosStock()
         {
-            return View();
+            return PartialView();
         }
     }
 }

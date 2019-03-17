@@ -25,6 +25,7 @@ namespace App.Data.DataBase
         public virtual DbSet<UnidadMedida> UnidadMedida { get; set; }
         public virtual DbSet<Usuario> Usuario { get; set; }
         public virtual DbSet<Comentario> Comentario { get; set; }
+        public virtual DbSet<Cliente> Cliente { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

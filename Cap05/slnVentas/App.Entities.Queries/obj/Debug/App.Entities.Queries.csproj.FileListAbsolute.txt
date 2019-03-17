@@ -1,6 +1,12 @@
+D:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\bin\Debug\App.Entities.Queries.dll
+D:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\bin\Debug\App.Entities.Queries.pdb
+D:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\obj\Debug\App.Entities.Queries.csprojAssemblyReference.cache
+D:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\obj\Debug\App.Entities.Queries.csproj.CoreCompileInputs.cache
+D:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\obj\Debug\App.Entities.Queries.dll
+D:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\obj\Debug\App.Entities.Queries.pdb
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\bin\Debug\App.Entities.Queries.dll
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\bin\Debug\App.Entities.Queries.pdb
+E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\obj\Debug\App.Entities.Queries.csprojAssemblyReference.cache
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\obj\Debug\App.Entities.Queries.csproj.CoreCompileInputs.cache
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\obj\Debug\App.Entities.Queries.dll
 E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\obj\Debug\App.Entities.Queries.pdb
-E:\webDeveloper\Repositorio\vs2017Web02\vs2017Web01\Cap05\slnVentas\App.Entities.Queries\obj\Debug\App.Entities.Queries.csprojAssemblyReference.cache

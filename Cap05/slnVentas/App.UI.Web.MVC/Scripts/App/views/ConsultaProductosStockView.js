@@ -3,6 +3,7 @@
         {
             Init: function () {
                 $(".ConsultaProductosStock .Buscar").on("click", this.Buscar);
+                jsGrid.locale("es");
                 $("#ListaProductos").jsGrid(
                     {
                         width: "100%",
@@ -13,18 +14,25 @@
                         autoload: true,
                         pageLoading: true,
                         fields: [
-                            { name: "Nombre", type: "text", width: 150 },
-                            { name: "StockActual", type: "text", width: 150 },
-                            { name: "ProductoCode", type: "text", width: 150 },
-                            { name: "CategoriaName", type: "text", width: 150 },
-                            { name: "MarcaName", type: "text", width: 150 },
-                            { name: "PrecioMayor", type: "text", width: 150 },
-                            { name: "PrecioMenor", type: "text", width: 150 },
+                            {
+                                itemTemplate: function (_, item) {
+                                    return $("<input>").attr("type", "radio")
+                                        .attr("name", "productos")
+                                        .on("change", function () {
+                                            app.helpers.closeModal("BusquedaProductoPopupID",item);
+                                        }); /*para eliegir solo uno attr("name", "productos")*/
+                                }
+                            },
+                            { name: "Nombre", title: "Nombre", type: "text", width: 150 },
+                            { name: "PrecioMenor", title: "Precio", type: "text", width: 150 },
+                            { name: "StockActual", title: "Stock", type: "text", width: 150 },
+
+
                         ],
                         controller:
                             {
                                 loadData: function (filter) {
-                                    
+
 
                                     var d = $.Deferred(); //resultado diferido
 
@@ -56,7 +64,7 @@
                     Stock: $(".ConsultaProductosStock .Stock").val()
                 }
                 var grid = $("#ListaProductos").jsGrid("search", filtros);
-                
+
 
             }
         }

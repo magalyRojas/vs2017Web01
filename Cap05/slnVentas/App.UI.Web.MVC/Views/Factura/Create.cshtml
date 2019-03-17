@@ -1,0 +1,41 @@
+﻿App.UI.Web.MVC.Models.ViewModels.ProductoSearchViewModel
+
+    /**/
+
+    //ViewBag.Title = "Create";
+}
+
+<h2>Crear Factura</h2>
+
+@*@using (Ajax.BeginForm("Create", "Cliente", new AjaxOptions() { OnSuccess = "app.ClienteView.RefreshLista()" }))*@
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+        <label class="=col-sm-2 control-label">Cliente</label>
+    </div>
+    <div class="form-horizontal">
+        <label class="=col-sm-2 control-label">Producto</label>
+        <br />
+        @*@Html.DropDownListFor(item => item.filterByName, new SelectList(Model.p, "ProductoId", "Nombre"), "Todos", new { @class = "form-control" })*@
+
+        <br />
+    </div>
+    <div class="form-horizontal">
+        <label class="=col-sm-2 control-label">Cantidad</label>
+    </div>
+    <div class="=form-group">
+        <table class="table table-striped">
+            <tr>
+                <td>Producto</td>
+                <td>Precio</td>
+                <td>Cantidad</td>
+                <td>Sub Total</td>
+            </tr>
+        </table>
+    </div>
+}
+
+@section scriptsAdicionales
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -200,11 +200,14 @@
     <Compile Include="Common\SecurityHelpers.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ComentarioController.cs" />
+    <Compile Include="Controllers\FacturaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Mantenimientos\CategoriaController.cs" />
+    <Compile Include="Controllers\Mantenimientos\ClienteController.cs" />
     <Compile Include="Controllers\Mantenimientos\MarcaController.cs" />
     <Compile Include="Controllers\Mantenimientos\ProductoController.cs" />
     <Compile Include="Controllers\Mantenimientos\UnidadMedidaController.cs" />
+    <Compile Include="Controllers\Movimientos\VentaController.cs" />
     <Compile Include="Controllers\SeguridadController.cs" />
     <Compile Include="CustomHtmlHelpers\CommonHelpers.cs" />
     <Compile Include="Filters\HandleCustomError.cs" />
@@ -212,6 +215,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="ModelBinders\ClienteBinder.cs" />
     <Compile Include="ModelBinders\CategoriaBinder.cs" />
     <Compile Include="Models\ViewModels\ComentarioViewModel.cs" />
     <Compile Include="Models\ViewModels\LoginViewModel.cs" />
@@ -770,13 +774,17 @@
     <Content Include="Content\themes\main\plugins\timepicker\bootstrap-timepicker.js" />
     <Content Include="Content\themes\main\plugins\timepicker\bootstrap-timepicker.min.css" />
     <Content Include="Content\themes\main\plugins\timepicker\bootstrap-timepicker.min.js" />
+    <Content Include="Content\toastr.css" />
+    <Content Include="Content\toastr.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\App\common\helper.js" />
+    <Content Include="Scripts\App\views\ClienteView.js" />
     <Content Include="Scripts\App\views\CategoriaView.js" />
     <Content Include="Scripts\App\views\ConsultaProductosStockView.js" />
+    <Content Include="Scripts\App\views\RegistrarVenta.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -802,6 +810,8 @@
     <Content Include="Areas\AdminSeguridad\Views\Home\Index.cshtml" />
     <Content Include="Areas\AdminSeguridad\Views\_ViewStart.cshtml" />
     <Content Include="Areas\AdminSeguridad\Views\Home\IndexListado.cshtml" />
+    <Content Include="Content\toastr.scss" />
+    <Content Include="Content\toastr.less" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -835,6 +845,8 @@
     <Content Include="Scripts\jsgrid-1.5.3\jsgrid.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\mustache.min.js" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\toastr.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -871,6 +883,11 @@
     <Content Include="Views\Comentario\Index.cshtml" />
     <Content Include="Views\Producto\BuscarProductosStock.cshtml" />
     <Content Include="Views\Producto\ConsultaProductosStock.cshtml" />
+    <Content Include="Views\Cliente\Create.cshtml" />
+    <Content Include="Views\Cliente\Index.cshtml" />
+    <Content Include="Views\Cliente\IndexListado.cshtml" />
+    <Content Include="Views\Factura\Create.cshtml" />
+    <Content Include="Views\Venta\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
